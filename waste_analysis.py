@@ -28,7 +28,7 @@ import os
 # Page Configuration
 # ----------------------------
 st.set_page_config(
-    page_title="Thailand Waste Analysis Pro",
+    page_title="Malawi Waste Analysis Pro",
     page_icon="♻️",
     layout="wide"
 )
@@ -255,7 +255,7 @@ def plot_waste_distribution(df):
 # Main Application
 # ----------------------------
 def main():
-    st.title("🇹🇭 Thailand Waste Prediction System Pro")
+    st.title("Malawi Waste Prediction System Pro")
     st.markdown("Optimized waste generation prediction with correlation-based feature selection")
 
     # Load data
